@@ -65,6 +65,9 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dufs-zh-cn"
 
 #===========================以下imm仓库内的软件==============================↓
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-rndis"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-ether"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3cat-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3ginfo-lite-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-acl-zh-cn"
